@@ -1,0 +1,1625 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2800400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should launch GC Browser and load the eurohike URL and maximize",
+            "match": {
+              "location": "HomeStepDefinition.user_should_launch_GC_Browser_and_load_the_eurohike_URL_and_maximize()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 622540100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Should Click the Tents and camping option in home page",
+            "match": {
+              "location": "TentStepDefinition.user_Should_Click_the_Tents_and_camping_option_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 315122200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click the Sleeping category",
+            "match": {
+              "location": "TentStepDefinition.click_the_Sleeping_category()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-02T06:04:54.588Z",
+        "before": [
+          {
+            "result": {
+              "duration": 26549270800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 364254600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.secondor()"
+            }
+          },
+          {
+            "result": {
+              "duration": 260200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.thirdorder()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Verify the User should navigat to Checkout page after click Checkout securely",
+        "description": "",
+        "id": "to-validated-checkout-product-in-eurohike-website;verify-the-user-should-navigat-to-checkout-page-after-click-checkout-securely",
+        "after": [
+          {
+            "result": {
+              "duration": 661539700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterExecution(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 179500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.secondafter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3321996100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click the Sleeping mats product",
+            "match": {
+              "location": "TentStepDefinition.click_the_Sleeping_mats_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3681128000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Select any one product and click the product",
+            "match": {
+              "location": "CheckOutStepDefinition.select_any_one_product_and_click_the_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 350683900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Add the Quantity base on Test data in Quantity option",
+            "match": {
+              "location": "CheckOutStepDefinition.add_the_Quantity_base_on_Test_data_in_Quantity_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6647347800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click the Add to basket button",
+            "match": {
+              "location": "CheckOutStepDefinition.click_the_Add_to_basket_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6237387001,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Scroll down the page and click Checkout securely button in basket page",
+            "match": {
+              "location": "CheckOutStepDefinition.scroll_down_the_page_and_click_Checkout_securely_button_in_basket_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47214500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should navigate to the CheckOut page",
+            "match": {
+              "location": "CheckOutStepDefinition.user_should_navigate_to_the_CheckOut_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SystemIntegration"
+          },
+          {
+            "name": "@SystemIntegration"
+          },
+          {
+            "name": "@Integration"
+          }
+        ]
+      }
+    ],
+    "name": "To Validated CheckOut product in EuroHike website",
+    "description": "",
+    "id": "to-validated-checkout-product-in-eurohike-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFile/CheckOut.feature",
+    "tags": [
+      {
+        "name": "@SystemIntegration",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 964299,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should launch GC Browser and load the eurohike URL and maximize",
+            "match": {
+              "location": "HomeStepDefinition.user_should_launch_GC_Browser_and_load_the_eurohike_URL_and_maximize()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-02T06:05:43.448Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12717050100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 227893600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.secondor()"
+            }
+          },
+          {
+            "result": {
+              "duration": 122199,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.thirdorder()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Verify The website is working in Chrome",
+        "description": "",
+        "id": "to-validated-home-functionality-of-eurohike-website;verify-the-website-is-working-in-chrome",
+        "after": [
+          {
+            "result": {
+              "duration": 1526615200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterExecution(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 175000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.secondafter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 58540099,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The eurohike website should be launch properly and working",
+            "match": {
+              "location": "HomeStepDefinition.the_eurohike_website_should_be_launch_properly_and_working()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1059699,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should launch GC Browser and load the eurohike URL and maximize",
+            "match": {
+              "location": "HomeStepDefinition.user_should_launch_GC_Browser_and_load_the_eurohike_URL_and_maximize()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-02T06:05:57.993Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10134051999,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 268113200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.secondor()"
+            }
+          },
+          {
+            "result": {
+              "duration": 177200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.thirdorder()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Verify The User click the Tents \u0026 camping option and it will show the list of product category",
+        "description": "",
+        "id": "to-validated-home-functionality-of-eurohike-website;verify-the-user-click-the-tents-\u0026-camping-option-and-it-will-show-the-list-of-product-category",
+        "after": [
+          {
+            "result": {
+              "duration": 1465877201,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterExecution(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 179801,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.secondafter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 607658600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click the Tents and camping option in home page",
+            "match": {
+              "location": "HomeStepDefinition.click_the_Tents_and_camping_option_in_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 114567500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should navigate to Tents and camping and able view all Tents and Camping product are should be available",
+            "match": {
+              "location": "HomeStepDefinition.user_should_navigate_to_Tents_and_camping_and_able_view_all_Tents_and_Camping_product_are_should_be_available()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "To Validated Home Functionality of Eurohike website",
+    "description": "",
+    "id": "to-validated-home-functionality-of-eurohike-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFile/Home.feature",
+    "tags": [
+      {
+        "name": "@Sanity",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1087200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should launch GC Browser and load the eurohike URL and maximize",
+            "match": {
+              "location": "HomeStepDefinition.user_should_launch_GC_Browser_and_load_the_eurohike_URL_and_maximize()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 627208100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Should Click the Tents and camping option in home page",
+            "match": {
+              "location": "TentStepDefinition.user_Should_Click_the_Tents_and_camping_option_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 291473600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click the Sleeping category",
+            "match": {
+              "location": "TentStepDefinition.click_the_Sleeping_category()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-02T06:06:10.594Z",
+        "before": [
+          {
+            "result": {
+              "duration": 14085651800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 261942599,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.secondor()"
+            }
+          },
+          {
+            "result": {
+              "duration": 164299,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.thirdorder()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Verify The User able to click the Sleeping  product category under Tents and camping",
+        "description": "",
+        "id": "to-validated-tent-and-camping-menu-in-eurohike-website;verify-the-user-able-to-click-the-sleeping--product-category-under-tents-and-camping",
+        "after": [
+          {
+            "result": {
+              "duration": 1067586300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterExecution(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 163300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.secondafter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 152628900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should navigate to the View all Sleeping log in Sleeping Products under Tents and capming",
+            "match": {
+              "location": "TentStepDefinition.user_should_navigate_to_the_View_all_Sleeping_log_in_Sleeping_Products_under_Tents_and_capming()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1039099,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should launch GC Browser and load the eurohike URL and maximize",
+            "match": {
+              "location": "HomeStepDefinition.user_should_launch_GC_Browser_and_load_the_eurohike_URL_and_maximize()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 636993001,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Should Click the Tents and camping option in home page",
+            "match": {
+              "location": "TentStepDefinition.user_Should_Click_the_Tents_and_camping_option_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 274962199,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click the Sleeping category",
+            "match": {
+              "location": "TentStepDefinition.click_the_Sleeping_category()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-02T06:06:27.099Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13552434701,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 252914900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.secondor()"
+            }
+          },
+          {
+            "result": {
+              "duration": 151300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.thirdorder()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Verify The Sleeping mats  under Sleeping  product category in Tents \u0026 camping",
+        "description": "",
+        "id": "to-validated-tent-and-camping-menu-in-eurohike-website;verify-the-sleeping-mats--under-sleeping--product-category-in-tents-\u0026-camping",
+        "after": [
+          {
+            "result": {
+              "duration": 562207900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterExecution(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 290500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.secondafter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5343782401,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click the Sleeping mats product",
+            "match": {
+              "location": "TentStepDefinition.click_the_Sleeping_mats_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107168500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should navigate to the Sleeping mats product in product page",
+            "match": {
+              "location": "TentStepDefinition.user_should_navigate_to_the_Sleeping_mats_product_in_product_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@System"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 879100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should launch GC Browser and load the eurohike URL and maximize",
+            "match": {
+              "location": "HomeStepDefinition.user_should_launch_GC_Browser_and_load_the_eurohike_URL_and_maximize()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 619379900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Should Click the Tents and camping option in home page",
+            "match": {
+              "location": "TentStepDefinition.user_Should_Click_the_Tents_and_camping_option_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 262728400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click the Sleeping category",
+            "match": {
+              "location": "TentStepDefinition.click_the_Sleeping_category()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-02T06:06:47.842Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12557463700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 244705800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.secondor()"
+            }
+          },
+          {
+            "result": {
+              "duration": 115600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.thirdorder()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Verify Should Click The Sleeping Liners product In Sleeping  Product Pategory",
+        "description": "",
+        "id": "to-validated-tent-and-camping-menu-in-eurohike-website;verify-should-click-the-sleeping-liners-product-in-sleeping--product-pategory",
+        "after": [
+          {
+            "result": {
+              "duration": 4539173900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterExecution(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 117200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.secondafter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4028473600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Click the Sleeping liners product",
+            "match": {
+              "location": "TentStepDefinition.click_the_Sleeping_liners_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125981200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User should navigate to the Sleeping liners product in product page",
+            "match": {
+              "location": "TentStepDefinition.user_should_navigate_to_the_Sleeping_liners_product_in_product_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@System"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1151700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should launch GC Browser and load the eurohike URL and maximize",
+            "match": {
+              "location": "HomeStepDefinition.user_should_launch_GC_Browser_and_load_the_eurohike_URL_and_maximize()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 641633900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Should Click the Tents and camping option in home page",
+            "match": {
+              "location": "TentStepDefinition.user_Should_Click_the_Tents_and_camping_option_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 243043500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click the Sleeping category",
+            "match": {
+              "location": "TentStepDefinition.click_the_Sleeping_category()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-02T06:07:10.230Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11964107100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 295341100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.secondor()"
+            }
+          },
+          {
+            "result": {
+              "duration": 179400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.thirdorder()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Verify Should Click The Airbeds product In Sleeping  Product Pategory",
+        "description": "",
+        "id": "to-validated-tent-and-camping-menu-in-eurohike-website;verify-should-click-the-airbeds-product-in-sleeping--product-pategory",
+        "after": [
+          {
+            "result": {
+              "duration": 2185919200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterExecution(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 168500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.secondafter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5081215100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Click the Airbeds product",
+            "match": {
+              "location": "TentStepDefinition.click_the_Airbeds_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144852800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User should navigate to the Airbeds product in product page",
+            "match": {
+              "location": "TentStepDefinition.user_should_navigate_to_the_Airbeds_product_in_product_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@System"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1171700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should launch GC Browser and load the eurohike URL and maximize",
+            "match": {
+              "location": "HomeStepDefinition.user_should_launch_GC_Browser_and_load_the_eurohike_URL_and_maximize()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 607330300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Should Click the Tents and camping option in home page",
+            "match": {
+              "location": "TentStepDefinition.user_Should_Click_the_Tents_and_camping_option_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 256655400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click the Sleeping category",
+            "match": {
+              "location": "TentStepDefinition.click_the_Sleeping_category()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-02T06:07:30.797Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12895320600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 254685300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.secondor()"
+            }
+          },
+          {
+            "result": {
+              "duration": 186000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.thirdorder()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Verify Should Click The Sleeping Bags product In Sleeping  Product Pategory",
+        "description": "",
+        "id": "to-validated-tent-and-camping-menu-in-eurohike-website;verify-should-click-the-sleeping-bags-product-in-sleeping--product-pategory",
+        "after": [
+          {
+            "result": {
+              "duration": 863966900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterExecution(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 164700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.secondafter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3811306400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Click the Sleeping Bags product",
+            "match": {
+              "location": "TentStepDefinition.click_the_Sleeping_Bags_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 165648400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User should navigate to the Sleeping Bags product in product page",
+            "match": {
+              "location": "TentStepDefinition.user_should_navigate_to_the_Sleeping_Bags_product_in_product_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@System"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 819400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should launch GC Browser and load the eurohike URL and maximize",
+            "match": {
+              "location": "HomeStepDefinition.user_should_launch_GC_Browser_and_load_the_eurohike_URL_and_maximize()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 613948900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Should Click the Tents and camping option in home page",
+            "match": {
+              "location": "TentStepDefinition.user_Should_Click_the_Tents_and_camping_option_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 259209800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click the Sleeping category",
+            "match": {
+              "location": "TentStepDefinition.click_the_Sleeping_category()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-02T06:07:49.662Z",
+        "before": [
+          {
+            "result": {
+              "duration": 14916168000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 260268600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.secondor()"
+            }
+          },
+          {
+            "result": {
+              "duration": 106200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.thirdorder()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Verify Should Click The Pumps product In Sleeping  Product Pategory",
+        "description": "",
+        "id": "to-validated-tent-and-camping-menu-in-eurohike-website;verify-should-click-the-pumps-product-in-sleeping--product-pategory",
+        "after": [
+          {
+            "result": {
+              "duration": 912139300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterExecution(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 140300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.secondafter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3889453800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Click the Pumps product",
+            "match": {
+              "location": "TentStepDefinition.click_the_Pumps_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 167128200,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User should navigate to the Pumps product in product page",
+            "match": {
+              "location": "TentStepDefinition.user_should_navigate_to_the_Pumps_product_in_product_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@System"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 808700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should launch GC Browser and load the eurohike URL and maximize",
+            "match": {
+              "location": "HomeStepDefinition.user_should_launch_GC_Browser_and_load_the_eurohike_URL_and_maximize()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 645498800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Should Click the Tents and camping option in home page",
+            "match": {
+              "location": "TentStepDefinition.user_Should_Click_the_Tents_and_camping_option_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 257375800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click the Sleeping category",
+            "match": {
+              "location": "TentStepDefinition.click_the_Sleeping_category()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-02T06:08:10.690Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12469204400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 269501600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.secondor()"
+            }
+          },
+          {
+            "result": {
+              "duration": 110300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.thirdorder()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "Verify Should Click The Camp Beds and Accessories product In Sleeping  Product Pategory",
+        "description": "",
+        "id": "to-validated-tent-and-camping-menu-in-eurohike-website;verify-should-click-the-camp-beds-and-accessories-product-in-sleeping--product-pategory",
+        "after": [
+          {
+            "result": {
+              "duration": 556299700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterExecution(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 171600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.secondafter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5627911300,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Click the Camp Beds and Accessories product",
+            "match": {
+              "location": "TentStepDefinition.click_the_Camp_Beds_and_Accessories_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 158805900,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User should navigate to the Camp Beds and Accessories product in product page",
+            "match": {
+              "location": "TentStepDefinition.user_should_navigate_to_the_Camp_Beds_and_Accessories_product_in_product_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@System"
+          }
+        ]
+      }
+    ],
+    "name": "To Validated Tent and camping Menu in EuroHike website",
+    "description": "",
+    "id": "to-validated-tent-and-camping-menu-in-eurohike-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFile/Tent.feature",
+    "tags": [
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 597100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should launch GC Browser and load the eurohike URL and maximize",
+            "match": {
+              "location": "HomeStepDefinition.user_should_launch_GC_Browser_and_load_the_eurohike_URL_and_maximize()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 630552900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Should Click the Tents and camping option in home page",
+            "match": {
+              "location": "TentStepDefinition.user_Should_Click_the_Tents_and_camping_option_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 232378700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click the Sleeping category",
+            "match": {
+              "location": "TentStepDefinition.click_the_Sleeping_category()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-02T06:08:30.671Z",
+        "before": [
+          {
+            "result": {
+              "duration": 14595996300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeExecution()"
+            }
+          },
+          {
+            "result": {
+              "duration": 309453800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.secondor()"
+            }
+          },
+          {
+            "result": {
+              "duration": 100300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.thirdorder()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Verify The User can able to add products in wish list and check the wish list",
+        "description": "",
+        "id": "to-validated-wish-list-option-in-eurohike-website;verify-the-user-can-able-to-add-products-in-wish-list-and-check-the-wish-list",
+        "after": [
+          {
+            "result": {
+              "duration": 694679000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterExecution(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 107600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.secondafter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5744486400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click the Sleeping mats product",
+            "match": {
+              "location": "TentStepDefinition.click_the_Sleeping_mats_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4198776700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Select any one product and click the product",
+            "match": {
+              "location": "CheckOutStepDefinition.select_any_one_product_and_click_the_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 263004100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Add product to the Wish list icon",
+            "match": {
+              "location": "WishStepDefinition.add_product_to_the_Wish_list_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3281113800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click the wish list icon",
+            "match": {
+              "location": "WishStepDefinition.click_the_wish_list_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119883200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should navigate to wish list product",
+            "match": {
+              "location": "WishStepDefinition.user_should_navigate_to_wish_list_product()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Integration"
+          },
+          {
+            "name": "@Integration"
+          }
+        ]
+      }
+    ],
+    "name": "To Validated wish List option in EuroHike website",
+    "description": "",
+    "id": "to-validated-wish-list-option-in-eurohike-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFile/WishList.feature",
+    "tags": [
+      {
+        "name": "@Integration",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

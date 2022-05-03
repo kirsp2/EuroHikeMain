@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="11" time="246.162422">
+<testcase classname="To Validated CheckOut product in EuroHike website" name="Verify the User should navigat to Checkout page after click Checkout securely" time="48.854444">
+<system-out><![CDATA[Given User should launch GC Browser and load the eurohike URL and maximize..passed
+Given User Should Click the Tents and camping option in home page...........passed
+When Click the Sleeping category............................................passed
+And click the Sleeping mats product.........................................passed
+And Select any one product and click the product............................passed
+And Add the Quantity base on Test data in Quantity option...................passed
+And Click the Add to basket button..........................................passed
+And Scroll down the page and click Checkout securely button in basket page..passed
+Then User should navigate to the CheckOut page..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Validated Home Functionality of Eurohike website" name="Verify The website is working in Chrome" time="14.543327">
+<system-out><![CDATA[Given User should launch GC Browser and load the eurohike URL and maximize..passed
+Then The eurohike website should be launch properly and working.............passed
+]]></system-out>
+</testcase>
+<testcase classname="To Validated Home Functionality of Eurohike website" name="Verify The User click the Tents &amp; camping option and it will show the list of product category" time="12.599151">
+<system-out><![CDATA[Given User should launch GC Browser and load the eurohike URL and maximize..passed
+When Click the Tents and camping option in home page........................passed
+Then User should navigate to Tents and camping and able view all Tents and Camping product are should be available.passed
+]]></system-out>
+</testcase>
+<testcase classname="To Validated Tent and camping Menu in EuroHike website" name="Verify The User able to click the Sleeping  product category under Tents and camping" time="16.504792">
+<system-out><![CDATA[Given User should launch GC Browser and load the eurohike URL and maximize..passed
+Given User Should Click the Tents and camping option in home page...........passed
+When Click the Sleeping category............................................passed
+Then User should navigate to the View all Sleeping log in Sleeping Products under Tents and capming.passed
+]]></system-out>
+</testcase>
+<testcase classname="To Validated Tent and camping Menu in EuroHike website" name="Verify The Sleeping mats  under Sleeping  product category in Tents &amp; camping" time="20.740025">
+<system-out><![CDATA[Given User should launch GC Browser and load the eurohike URL and maximize..passed
+Given User Should Click the Tents and camping option in home page...........passed
+When Click the Sleeping category............................................passed
+And click the Sleeping mats product.........................................passed
+Then User should navigate to the Sleeping mats product in product page......passed
+]]></system-out>
+</testcase>
+<testcase classname="To Validated Tent and camping Menu in EuroHike website" name="Verify Should Click The Sleeping Liners product In Sleeping  Product Pategory" time="22.387364">
+<system-out><![CDATA[Given User should launch GC Browser and load the eurohike URL and maximize..passed
+Given User Should Click the Tents and camping option in home page...........passed
+When Click the Sleeping category............................................passed
+And Click the Sleeping liners product.......................................passed
+Then User should navigate to the Sleeping liners product in product page....passed
+]]></system-out>
+</testcase>
+<testcase classname="To Validated Tent and camping Menu in EuroHike website" name="Verify Should Click The Airbeds product In Sleeping  Product Pategory" time="20.565588">
+<system-out><![CDATA[Given User should launch GC Browser and load the eurohike URL and maximize..passed
+Given User Should Click the Tents and camping option in home page...........passed
+When Click the Sleeping category............................................passed
+And Click the Airbeds product...............................................passed
+Then User should navigate to the Airbeds product in product page............passed
+]]></system-out>
+</testcase>
+<testcase classname="To Validated Tent and camping Menu in EuroHike website" name="Verify Should Click The Sleeping Bags product In Sleeping  Product Pategory" time="18.864049">
+<system-out><![CDATA[Given User should launch GC Browser and load the eurohike URL and maximize..passed
+Given User Should Click the Tents and camping option in home page...........passed
+When Click the Sleeping category............................................passed
+And Click the Sleeping Bags product.........................................passed
+Then User should navigate to the Sleeping Bags product in product page......passed
+]]></system-out>
+</testcase>
+<testcase classname="To Validated Tent and camping Menu in EuroHike website" name="Verify Should Click The Pumps product In Sleeping  Product Pategory" time="21.026441">
+<system-out><![CDATA[Given User should launch GC Browser and load the eurohike URL and maximize..passed
+Given User Should Click the Tents and camping option in home page...........passed
+When Click the Sleeping category............................................passed
+And Click the Pumps product.................................................passed
+Then User should navigate to the Pumps product in product page..............passed
+]]></system-out>
+</testcase>
+<testcase classname="To Validated Tent and camping Menu in EuroHike website" name="Verify Should Click The Camp Beds and Accessories product In Sleeping  Product Pategory" time="19.992332">
+<system-out><![CDATA[Given User should launch GC Browser and load the eurohike URL and maximize..passed
+Given User Should Click the Tents and camping option in home page...........passed
+When Click the Sleeping category............................................passed
+And Click the Camp Beds and Accessories product.............................passed
+Then User should navigate to the Camp Beds and Accessories product in product page.passed
+]]></system-out>
+</testcase>
+<testcase classname="To Validated wish List option in EuroHike website" name="Verify The User can able to add products in wish list and check the wish list" time="30.084909">
+<system-out><![CDATA[Given User should launch GC Browser and load the eurohike URL and maximize..passed
+Given User Should Click the Tents and camping option in home page...........passed
+When Click the Sleeping category............................................passed
+And click the Sleeping mats product.........................................passed
+And Select any one product and click the product............................passed
+And Add product to the Wish list icon.......................................passed
+And Click the wish list icon................................................passed
+Then User should navigate to wish list product..............................passed
+]]></system-out>
+</testcase>
+</testsuite>

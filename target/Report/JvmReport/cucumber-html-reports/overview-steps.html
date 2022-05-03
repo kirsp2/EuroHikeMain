@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+    
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+            <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>EuroHike Application</td>
+            <td>02 May 2022, 11:39</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+      </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+          <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+      </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+                      <tr>
+              <td class="location">CheckOutStepDefinition.add_the_Quantity_base_on_Test_data_in_Quantity_option()</td>
+              <td>1</td>
+              <td class="duration" data-value="350683900">0.350</td>
+              <td class="duration" data-value="350683900">0.350</td>
+              <td class="duration" data-value="350683900">0.350</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">CheckOutStepDefinition.click_the_Add_to_basket_button()</td>
+              <td>1</td>
+              <td class="duration" data-value="6647347800">6.647</td>
+              <td class="duration" data-value="6647347800">6.647</td>
+              <td class="duration" data-value="6647347800">6.647</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">CheckOutStepDefinition.scroll_down_the_page_and_click_Checkout_securely_button_in_basket_page()</td>
+              <td>1</td>
+              <td class="duration" data-value="6237387001">6.237</td>
+              <td class="duration" data-value="6237387001">6.237</td>
+              <td class="duration" data-value="6237387001">6.237</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">CheckOutStepDefinition.select_any_one_product_and_click_the_product()</td>
+              <td>2</td>
+              <td class="duration" data-value="3939952350">3.939</td>
+              <td class="duration" data-value="3939952350">4.198</td>
+              <td class="duration" data-value="7879904700">7.879</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">CheckOutStepDefinition.user_should_navigate_to_the_CheckOut_page()</td>
+              <td>1</td>
+              <td class="duration" data-value="47214500">0.047</td>
+              <td class="duration" data-value="47214500">0.047</td>
+              <td class="duration" data-value="47214500">0.047</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">HomeStepDefinition.click_the_Tents_and_camping_option_in_home_page()</td>
+              <td>1</td>
+              <td class="duration" data-value="607658600">0.607</td>
+              <td class="duration" data-value="607658600">0.607</td>
+              <td class="duration" data-value="607658600">0.607</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">HomeStepDefinition.the_eurohike_website_should_be_launch_properly_and_working()</td>
+              <td>1</td>
+              <td class="duration" data-value="58540099">0.058</td>
+              <td class="duration" data-value="58540099">0.058</td>
+              <td class="duration" data-value="58540099">0.058</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">HomeStepDefinition.user_should_launch_GC_Browser_and_load_the_eurohike_URL_and_maximize()</td>
+              <td>11</td>
+              <td class="duration" data-value="1125308">0.001</td>
+              <td class="duration" data-value="1125308">0.002</td>
+              <td class="duration" data-value="12378397">0.012</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">HomeStepDefinition.user_should_navigate_to_Tents_and_camping_and_able_view_all_Tents_and_Camping_product_are_should_be_available()</td>
+              <td>1</td>
+              <td class="duration" data-value="114567500">0.114</td>
+              <td class="duration" data-value="114567500">0.114</td>
+              <td class="duration" data-value="114567500">0.114</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">Hooks.afterExecution(Scenario)</td>
+              <td>11</td>
+              <td class="duration" data-value="1366909481">1.366</td>
+              <td class="duration" data-value="1366909481">4.539</td>
+              <td class="duration" data-value="15036004301">15.036</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">Hooks.beforeExecution()</td>
+              <td>11</td>
+              <td class="duration" data-value="14221519954">14.221</td>
+              <td class="duration" data-value="14221519954">26.549</td>
+              <td class="duration" data-value="156436719500">2:36.436</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">Hooks.secondafter()</td>
+              <td>11</td>
+              <td class="duration" data-value="168909">0.000</td>
+              <td class="duration" data-value="168909">0.000</td>
+              <td class="duration" data-value="1858001">0.001</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">Hooks.secondor()</td>
+              <td>11</td>
+              <td class="duration" data-value="273552281">0.273</td>
+              <td class="duration" data-value="273552281">0.364</td>
+              <td class="duration" data-value="3009075099">3.009</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">Hooks.thirdorder()</td>
+              <td>11</td>
+              <td class="duration" data-value="152090">0.000</td>
+              <td class="duration" data-value="152090">0.000</td>
+              <td class="duration" data-value="1672998">0.001</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">TentStepDefinition.click_the_Airbeds_product()</td>
+              <td>1</td>
+              <td class="duration" data-value="5081215100">5.081</td>
+              <td class="duration" data-value="5081215100">5.081</td>
+              <td class="duration" data-value="5081215100">5.081</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">TentStepDefinition.click_the_Camp_Beds_and_Accessories_product()</td>
+              <td>1</td>
+              <td class="duration" data-value="5627911300">5.627</td>
+              <td class="duration" data-value="5627911300">5.627</td>
+              <td class="duration" data-value="5627911300">5.627</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">TentStepDefinition.click_the_Pumps_product()</td>
+              <td>1</td>
+              <td class="duration" data-value="3889453800">3.889</td>
+              <td class="duration" data-value="3889453800">3.889</td>
+              <td class="duration" data-value="3889453800">3.889</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">TentStepDefinition.click_the_Sleeping_Bags_product()</td>
+              <td>1</td>
+              <td class="duration" data-value="3811306400">3.811</td>
+              <td class="duration" data-value="3811306400">3.811</td>
+              <td class="duration" data-value="3811306400">3.811</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">TentStepDefinition.click_the_Sleeping_category()</td>
+              <td>9</td>
+              <td class="duration" data-value="265883288">0.265</td>
+              <td class="duration" data-value="265883288">0.315</td>
+              <td class="duration" data-value="2392949599">2.392</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">TentStepDefinition.click_the_Sleeping_liners_product()</td>
+              <td>1</td>
+              <td class="duration" data-value="4028473600">4.028</td>
+              <td class="duration" data-value="4028473600">4.028</td>
+              <td class="duration" data-value="4028473600">4.028</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">TentStepDefinition.click_the_Sleeping_mats_product()</td>
+              <td>3</td>
+              <td class="duration" data-value="4803421633">4.803</td>
+              <td class="duration" data-value="4803421633">5.744</td>
+              <td class="duration" data-value="14410264901">14.410</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">TentStepDefinition.user_Should_Click_the_Tents_and_camping_option_in_home_page()</td>
+              <td>9</td>
+              <td class="duration" data-value="627231766">0.627</td>
+              <td class="duration" data-value="627231766">0.645</td>
+              <td class="duration" data-value="5645085901">5.645</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">TentStepDefinition.user_should_navigate_to_the_Airbeds_product_in_product_page()</td>
+              <td>1</td>
+              <td class="duration" data-value="144852800">0.144</td>
+              <td class="duration" data-value="144852800">0.144</td>
+              <td class="duration" data-value="144852800">0.144</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">TentStepDefinition.user_should_navigate_to_the_Camp_Beds_and_Accessories_product_in_product_page()</td>
+              <td>1</td>
+              <td class="duration" data-value="158805900">0.158</td>
+              <td class="duration" data-value="158805900">0.158</td>
+              <td class="duration" data-value="158805900">0.158</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">TentStepDefinition.user_should_navigate_to_the_Pumps_product_in_product_page()</td>
+              <td>1</td>
+              <td class="duration" data-value="167128200">0.167</td>
+              <td class="duration" data-value="167128200">0.167</td>
+              <td class="duration" data-value="167128200">0.167</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">TentStepDefinition.user_should_navigate_to_the_Sleeping_Bags_product_in_product_page()</td>
+              <td>1</td>
+              <td class="duration" data-value="165648400">0.165</td>
+              <td class="duration" data-value="165648400">0.165</td>
+              <td class="duration" data-value="165648400">0.165</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">TentStepDefinition.user_should_navigate_to_the_Sleeping_liners_product_in_product_page()</td>
+              <td>1</td>
+              <td class="duration" data-value="125981200">0.125</td>
+              <td class="duration" data-value="125981200">0.125</td>
+              <td class="duration" data-value="125981200">0.125</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">TentStepDefinition.user_should_navigate_to_the_Sleeping_mats_product_in_product_page()</td>
+              <td>1</td>
+              <td class="duration" data-value="107168500">0.107</td>
+              <td class="duration" data-value="107168500">0.107</td>
+              <td class="duration" data-value="107168500">0.107</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">TentStepDefinition.user_should_navigate_to_the_View_all_Sleeping_log_in_Sleeping_Products_under_Tents_and_capming()</td>
+              <td>1</td>
+              <td class="duration" data-value="152628900">0.152</td>
+              <td class="duration" data-value="152628900">0.152</td>
+              <td class="duration" data-value="152628900">0.152</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WishStepDefinition.add_product_to_the_Wish_list_icon()</td>
+              <td>1</td>
+              <td class="duration" data-value="263004100">0.263</td>
+              <td class="duration" data-value="263004100">0.263</td>
+              <td class="duration" data-value="263004100">0.263</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WishStepDefinition.click_the_wish_list_icon()</td>
+              <td>1</td>
+              <td class="duration" data-value="3281113800">3.281</td>
+              <td class="duration" data-value="3281113800">3.281</td>
+              <td class="duration" data-value="3281113800">3.281</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">WishStepDefinition.user_should_navigate_to_wish_list_product()</td>
+              <td>1</td>
+              <td class="duration" data-value="119883200">0.119</td>
+              <td class="duration" data-value="119883200">0.119</td>
+              <td class="duration" data-value="119883200">0.119</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                  </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>32</td>
+            <td>111</td>
+            <td class="duration">2.216</td>
+            <td class="duration">2:36.436</td>
+            <td class="duration">4:6.013</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
